@@ -40,7 +40,7 @@ function Footer() {
             )
                 .then(res => res.json())
                 .then(res => {
-                    // console.log(res);
+                    console.log(res);
                     if (res.status === "success") {
                         alert("Task added Successfully.");
                         dispatch(Success());
@@ -71,7 +71,7 @@ function Footer() {
             })
                 .then(res => res.json())
                 .then(res => {
-                    // console.log(res);
+                    console.log(res);
                     if (res.status === "success") {
                         alert("Updated successfully.");
                         dispatch(Success());

@@ -57,6 +57,7 @@ function App() {
       })
       .then(res => res.json())
       .then(res => {
+        //may be here the problem was
         console.log(res);
       })
 

@@ -3,7 +3,7 @@ import Footer from './Footer';
 import DatePicker from 'react-date-picker';
 import TimePicker from 'react-time-picker';
 import { useDispatch, useSelector } from 'react-redux';
-import { setDescript, sethour, setminute, setName, setTimer, setValue } from "../Store/Actions";
+import { setDescript, sethour, setminute, setName, setTimer, setValue, Success } from "../Store/Actions";
 import { cID, token } from '../App';
 
 function Body() {
@@ -32,9 +32,10 @@ function Body() {
         })
             .then(res => res.json())
             .then(res => {
-                // console.log(res);
+                console.log(res);
                 if (res.status === "success") {
                     alert("Task deleted successfully.");
+                    dispatch(Success());
                 }
             })
             .catch(e => {

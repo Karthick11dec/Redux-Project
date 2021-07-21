@@ -1,0 +1,111 @@
+/* common css */
+
+input{
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* app css */
+
+#cardbody-bg{
+    background-color: rgb(235, 248, 255);
+    padding: 0%;
+    margin: 0%;
+}
+
+/* header css */
+
+.cursor{
+    cursor:default !important;
+}
+
+.padder1{
+    padding: 8px 10px 8px 25px;
+}
+
+.padder2{
+    padding: 8px 10px;
+    font-size: 19px;
+}
+
+#btn{
+    border-left: 0.5px solid rgb(201, 201, 201);
+    font-weight: bolder !important;
+    border-radius: 0%;
+}
+
+/* body css */
+
+.row-pad{
+    margin: 5px 0px 10px 0px;
+}
+
+.heading{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#sort-move{
+    position: absolute;
+    top: 72%;
+    left: 91%;
+}
+
+#down-move{
+    position: absolute;
+    top: 27%;
+    left: 91%;
+    border: 1.5px solid black;
+    padding: 1.5px;
+    font-size: 10px;
+}
+
+#clock-move{
+    position: absolute;
+    top: 49.5%;
+    left: 56%;
+}
+
+#date-move{
+    position: absolute;
+    top: 49.5%;
+    left: 9%;
+}
+
+#time{
+    text-align: left;
+    padding-left: 32px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0%;
+    left: 0.5%;
+    text-align: center;
+    border-left: 0px !important;
+    background-color: white;
+    height: 30px;
+}
+
+/* footer css */
+
+.btn-class{
+    padding: 3px 10px;
+    width: 5rem;
+    margin-left: 15px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+/* loader */
+
+.border{
+    font-size: 13px;
+    background-color: white;
+    border: 1px solid rgb(156, 156, 156) !important;
+}
+
+.pic{
+    width: 100%;
+    height: 100%;
+}
